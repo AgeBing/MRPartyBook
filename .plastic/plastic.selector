@@ -1,0 +1,4 @@
+repository "New Unity Project@ssl://ykjage@sh03-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/ykjage" 
+     
