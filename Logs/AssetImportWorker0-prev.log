@@ -1,0 +1,169 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/age/Desktop/MR-Proj/MR-demo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65006
+Successfully changed project path to: /Users/age/Desktop/MR-Proj/MR-demo
+/Users/age/Desktop/MR-Proj/MR-demo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/age/Desktop/MR-Proj/MR-demo/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-23 14:28:21.185 Unity[27945:753712] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-04-23 14:28:21.185 Unity[27945:753712] Metal devices available: 1
+2021-04-23 14:28:21.185 Unity[27945:753712] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-04-23 14:28:21.185 Unity[27945:753712] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56945
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002270 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 29.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.870 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 2.577586 ms (FindLiveObjects: 0.203422 ms CreateObjectMapping: 0.056184 ms MarkObjects: 2.202620 ms  DeleteObjects: 0.114322 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/EndlessBook/Demos/Demo 01
+  artifactKey: Guid(e34d0078c373d3d4fab41acda76537d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 01 using Guid(e34d0078c373d3d4fab41acda76537d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9e94e1f44d6d517d80b73f9ad232e7') in 0.005392 seconds
+  Import took 0.009197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/EndlessBook/Demos/Demo 01/Scenes/Demo 01.unity
+  artifactKey: Guid(e4aa6b83f4810dd40ac4c4fa876e3460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 01/Scenes/Demo 01.unity using Guid(e4aa6b83f4810dd40ac4c4fa876e3460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79da728f4c372dd04b5baec8783ff04') in 0.011544 seconds
+  Import took 0.013856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.664564 seconds.
+  path: Assets/EndlessBook/Documentation/EndlessBook_QuickStart.pdf
+  artifactKey: Guid(6e3b1596f941d074f89d05bd5527b34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Documentation/EndlessBook_QuickStart.pdf using Guid(6e3b1596f941d074f89d05bd5527b34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edb0a66943197a352adb8112b940c10') in 0.960438 seconds
+  Import took 0.962985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433958 seconds.
+  path: Assets/EndlessBook/Documentation/EndlessBook_UserManual.pdf
+  artifactKey: Guid(7fa31857c2bc8604aa3aa6f5ee891434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Documentation/EndlessBook_UserManual.pdf using Guid(7fa31857c2bc8604aa3aa6f5ee891434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99771664801f451d49b7a547fc5c3483') in 0.004047 seconds
+  Import took 0.007187 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.6 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1835.
+Total: 1.960169 ms (FindLiveObjects: 0.188526 ms CreateObjectMapping: 0.046855 ms MarkObjects: 1.662029 ms  DeleteObjects: 0.061780 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.722228 seconds.
+  path: Assets/EndlessBook/Documentation
+  artifactKey: Guid(db053bde168a62d4190c22d1b3689358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Documentation using Guid(db053bde168a62d4190c22d1b3689358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94139f2321e318105d0ad62150e57ed0') in 0.003504 seconds
+  Import took 0.006063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.486055 seconds.
+  path: Assets/EndlessBook/Book/Prefabs/Book.prefab
+  artifactKey: Guid(5ef2bcca2a96f38498a8dcf52868e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Book/Prefabs/Book.prefab using Guid(5ef2bcca2a96f38498a8dcf52868e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a73b958b6aaf21c4aa8bd01bcb2e75') in 1.933640 seconds
+  Import took 1.936858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.628184 seconds.
+  path: Assets/EndlessBook/Book/Scripts/Page.cs
+  artifactKey: Guid(55e26fabb327e7248893157faa5f07aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Book/Scripts/Page.cs using Guid(55e26fabb327e7248893157faa5f07aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b4b4b1beaab5ea8277b733916aa8f8') in 0.609695 seconds
+  Import took 0.612770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.971663 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Scenes/Demo 02.unity
+  artifactKey: Guid(5b3d3b8897586f84490fe200df467b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Scenes/Demo 02.unity using Guid(5b3d3b8897586f84490fe200df467b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091b89a3c984a65a53849c4c84556418') in 0.009957 seconds
+  Import took 0.030745 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.2 MB.
+System memory in use after: 156.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 3.495583 ms (FindLiveObjects: 0.346283 ms CreateObjectMapping: 0.082274 ms MarkObjects: 2.950534 ms  DeleteObjects: 0.115127 ms)
+

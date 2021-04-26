@@ -1,0 +1,16 @@
+v 1.1.2
+
+- Changed PageData from struct to class to allow mutability
+
+v 1.1.1
+
+- Fixed TurnToPage if advancing by one page and already in the current page group
+
+v 1.1.0
+
+- Updated all page textures for both left and right hand pages to use the same layout
+- Fixed some overlap on the page animation at the start and stop of the animation
+
+v 1.0.0
+
+- Initial Release
